@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  PickerViewDemo
+//
+//  Created by Shaochong Du on 16/3/22.
+//  Copyright © 2016年 Shaochong Du. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//  设置列表配置文件
+#define kIsUse @"isUse"
+#define kModuleIcon @"moduleIcon"
+#define kModuleName @"moduleName"
+#define kIsRequired @"isRequired"
+#define kHeaderDes @"headerDes"
+#define kFooterDes @"footerDes"
+#define kDataArray @"dataArray"
+
+
+#endif /* PrefixHeader_pch */

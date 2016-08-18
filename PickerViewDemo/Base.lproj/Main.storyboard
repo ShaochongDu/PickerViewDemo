@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2r-NO-1n8">
+                                <rect key="frame" x="107" y="28" width="106" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="dlz-if-RDE"/>
+                                    <constraint firstAttribute="height" constant="30" id="yqK-mD-UAG"/>
+                                </constraints>
+                                <state key="normal" title="pickerview"/>
+                                <connections>
+                                    <action selector="showActionSheet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qpk-nS-hFL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O87-aq-BMZ">
+                                <rect key="frame" x="107" y="89" width="106" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TkJ-SF-EOi"/>
+                                    <constraint firstAttribute="width" constant="106" id="fx4-0S-kCk"/>
+                                </constraints>
+                                <state key="normal" title="dateview"/>
+                                <connections>
+                                    <action selector="showDatePickerView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="af3-8b-IS5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btF-bv-4Yp">
+                                <rect key="frame" x="98" y="156" width="124" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="124" id="GRi-AK-ZSx"/>
+                                    <constraint firstAttribute="height" constant="30" id="cVn-nk-PqZ"/>
+                                </constraints>
+                                <state key="normal" title="多列选项"/>
+                                <connections>
+                                    <action selector="otherPickerView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JNQ-dW-8eL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O87-aq-BMZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="50v-SH-lW5"/>
+                            <constraint firstItem="N2r-NO-1n8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="5Ls-KU-tvO"/>
+                            <constraint firstItem="btF-bv-4Yp" firstAttribute="top" secondItem="O87-aq-BMZ" secondAttribute="bottom" constant="37" id="BSc-SG-xOt"/>
+                            <constraint firstItem="N2r-NO-1n8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NjJ-jo-I5M"/>
+                            <constraint firstItem="O87-aq-BMZ" firstAttribute="top" secondItem="N2r-NO-1n8" secondAttribute="bottom" constant="31" id="Tzs-lt-ki4"/>
+                            <constraint firstAttribute="trailing" secondItem="btF-bv-4Yp" secondAttribute="trailing" constant="98" id="VKQ-L2-qYx"/>
+                            <constraint firstItem="btF-bv-4Yp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="98" id="ZeX-LZ-f9g"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="297" y="429"/>
+        </scene>
+    </scenes>
+</document>

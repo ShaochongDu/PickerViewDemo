@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>isUse</key>
+		<true/>
+		<key>headerDes</key>
+		<string>m</string>
+		<key>footerDes</key>
+		<string></string>
+		<key>dataArray</key>
+		<array>
+			<dict>
+				<key>moduleName</key>
+				<string>男</string>
+				<key>isUse</key>
+				<true/>
+				<key>moduleIcon</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>moduleName</key>
+				<string>女</string>
+				<key>isUse</key>
+				<true/>
+				<key>moduleIcon</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>isUse</key>
+		<true/>
+		<key>headerDes</key>
+		<string>m</string>
+		<key>footerDes</key>
+		<string></string>
+		<key>dataArray</key>
+		<array>
+			<dict>
+				<key>moduleName</key>
+				<string>未知</string>
+				<key>isUse</key>
+				<true/>
+				<key>moduleIcon</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
